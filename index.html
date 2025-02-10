@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone - Dark Theme</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <i class="fas fa-bars"></i>
+            <img src="assets/Screenshot_2024-12-02_at_12.58.31_PM-removebg-preview.png" alt="YouTube Logo" class="youtube-logo" width="49px" height="200px">
+            <span class="youtube-text">YouTube</span>
+        </div>
+        <div class="header-center">
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="mic-icon" title="Search with your voice">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            <i class="fas fa-video" title="Create"></i>
+            <div class="notifications-container">
+                <i class="fas fa-bell" title="Notifications"></i>
+                <div class="notification-badge">3</div>
+            </div>
+            <div class="profile-icon" title="Account">A</div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Main Navigation -->
+            <div class="sidebar-section">
+                <div class="sidebar-item active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-compass"></i>
+                    <span>Explore</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-play-circle"></i>
+                    <span>Shorts</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-users"></i>
+                    <span>Subscriptions</span>
+                </div>
+            </div>
+
+            <!-- Library Section -->
+            <div class="sidebar-section">
+                <div class="section-title">Library</div>
+                <div class="sidebar-item">
+                    <i class="fas fa-clock-rotate-left"></i>
+                    <span>History</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Watch Later</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Liked Videos</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-list"></i>
+                    <span>Playlists</span>
+                </div>
+            </div>
+
+            <!-- Subscriptions Section -->
+            <div class="sidebar-section">
+                <div class="section-title">Subscriptions</div>
+                <div class="sidebar-item">
+                    <img src="https://picsum.photos/seed/ch1/24/24" alt="Channel" class="channel-icon">
+                    <span>Tech Channel</span>
+                </div>
+                <div class="sidebar-item">
+                    <img src="https://picsum.photos/seed/ch2/24/24" alt="Channel" class="channel-icon">
+                    <span>Music Channel</span>
+                </div>
+                <div class="sidebar-item">
+                    <img src="https://picsum.photos/seed/ch3/24/24" alt="Channel" class="channel-icon">
+                    <span>Gaming Channel</span>
+                </div>
+                <div class="sidebar-item">
+                    <img src="https://picsum.photos/seed/ch4/24/24" alt="Channel" class="channel-icon">
+                    <span>News Channel</span>
+                </div>
+            </div>
+
+            <!-- Explore Section -->
+            <div class="sidebar-section">
+                <div class="section-title">Explore</div>
+                <div class="sidebar-item">
+                    <i class="fas fa-fire"></i>
+                    <span>Trending</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-music"></i>
+                    <span>Music</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Gaming</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-newspaper"></i>
+                    <span>News</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-trophy"></i>
+                    <span>Sports</span>
+                </div>
+              <div class="sidebar-item">
+                    <i class="fas fa-broadcast-tower"></i>
+                    <span>Live</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Learning</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-podcast"></i>
+                    <span>Podcasts</span>
+                </div>
+            </div>
+
+            <!-- More from YouTube Section -->
+            <div class="sidebar-section">
+                <div class="section-title">More from YouTube</div>
+                <div class="sidebar-item">
+                    <i class="fab fa-youtube" style="color: #ff0000;"></i>
+                    <span>YouTube Premium</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-film"></i>
+                    <span>YouTube Movies</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Gaming</span>
+                </div>
+                
+            </div>
+
+            <!-- Settings Section -->
+            <div class="sidebar-section">
+                <div class="section-title">Settings</div>
+                <div class="sidebar-item">
+                    <i class="fas fa-gear"></i>
+                    <span>Settings</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-flag"></i>
+                    <span>Report history</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-circle-question"></i>
+                    <span>Help</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-message"></i>
+                    <span>Send feedback</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Video Grid -->
+        <main class="content">
+            <!-- Categories -->
+            <div class="categories">
+                <button class="category-item active">All</button>
+                <button class="category-item">Music</button>
+                <button class="category-item">Gaming</button>
+                <button class="category-item">Live</button>
+                <button class="category-item">News</button>
+                <button class="category-item">Sports</button>
+                <button class="category-item">Technology</button>
+                <button class="category-item">Entertainment</button>
+                <button class="category-item">Education</button>
+                <button class="category-item">Podcasts</button>
+                <button class="category-item">Cooking</button>
+                <button class="category-item">Travel</button>
+            </div>
+
+            <!-- Video Grid -->
+            <div class="video-grid">
+                <!-- Video Card 1 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/seed/v1/320/180" alt="Video Thumbnail" class="thumbnail">
+                        <span class="video-duration">12:34</span>
+                        <div class="hover-controls">
+                            <button class="watch-later"><i class="fas fa-clock"></i></button>
+                            <button class="add-to-queue"><i class="fas fa-list"></i></button>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/ch1/36/36" alt="Channel" class="channel-icon">
+                        <div class="video-details">
+                            <h3 class="video-title">Amazing Video Title That Is Really Long And Might Need Two Lines</h3>
+                            <p class="channel-name">Channel Name</p>
+                            <p class="video-stats">123K views • 2 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Card 2 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/seed/v2/320/180" alt="Video Thumbnail" class="thumbnail">
+                        <span class="video-duration">8:15</span>
+                        <div class="hover-controls">
+                            <button class="watch-later"><i class="fas fa-clock"></i></button>
+                            <button class="add-to-queue"><i class="fas fa-list"></i></button>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/ch2/36/36" alt="Channel" class="channel-icon">
+                        <div class="video-details">
+                            <h3 class="video-title">Another Great Video Title</h3>
+                            <p class="channel-name">Another Channel</p>
+                            <p class="video-stats">45K views • 5 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Card 3 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/seed/v3/320/180" alt="Video Thumbnail" class="thumbnail">
+                        <span class="video-duration">21:42</span>
+                        <div class="hover-controls">
+                            <button class="watch-later"><i class="fas fa-clock"></i></button>
+                            <button class="add-to-queue"><i class="fas fa-list"></i></button>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/ch3/36/36" alt="Channel" class="channel-icon">
+                        <div class="video-details">
+                            <h3 class="video-title">Live Streaming Content</h3>
+                            <p class="channel-name">Live Channel</p>
+                            <p class="video-stats">1.2K watching</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Card 4 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/seed/v4/320/180" alt="Video Thumbnail" class="thumbnail">
+                        <span class="video-duration">15:00</span>
+                        <div class="hover-controls">
+                            <button class="watch-later"><i class="fas fa-clock"></i></button>
+                            <button class="add-to-queue"><i class="fas fa-list"></i></button>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/ch4/36/36" alt="Channel" class="channel-icon">
+                        <div class="video-details">
+                            <h3 class="video-title">Interesting Video Content</h3>
+                            <p class="channel-name">Cool Channel</p>
+                            <p class="video-stats">89K views • 1 day ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Card 5 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/seed/v5/320/180" alt="Video Thumbnail" class="thumbnail">
+                        <span class="video-duration">7:30</span>
+                        <div class="hover-controls">
+                            <button class="watch-later"><i class="fas fa-clock"></i></button>
+                            <button class="add-to-queue"><i class="fas fa-list"></i></button>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/ch5/36/36" alt="Channel" class="channel-icon">
+                        <div class="video-details">
+                            <h3 class="video-title">Short But Sweet Video</h3>
+                            <p class="channel-name">Quick Tips</p>
+                            <p class="video-stats">234K views • 3 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Card 6 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/seed/v6/320/180" alt="Video Thumbnail" class="thumbnail">
+                        <span class="video-duration">18:22</span>
+                        <div class="hover-controls">
+                            <button class="watch-later"><i class="fas fa-clock"></i></button>
+                            <button class="add-to-queue"><i class="fas fa-list"></i></button>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/ch6/36/36" alt="Channel" class="channel-icon">
+                        <div class="video-details">
+                            <h3 class="video-title">Premiering Now: Special Content</h3>
+                            <p class="channel-name">Premium Channel</p>
+                            <p class="video-stats">Starts in 1 hour</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
